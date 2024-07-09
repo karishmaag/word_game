@@ -1,0 +1,103 @@
+img
+{
+  width: 100vw;
+  height: 99.5vh;
+
+}
+#word
+{
+  width: 50%;
+  height: 50%;
+  color: white;
+  height: 40%;
+  position: absolute;
+  margin-top:170px;
+  margin-left: 590px;
+  background:rgb(207, 205, 205);
+}
+#word h1{
+  background: #651a39;
+  margin: 0;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+#content
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(207, 205, 205);
+  padding: 50px 0px;
+  width: 100%;
+  position: relative;
+}
+#message
+{
+  width: 300px;
+  height: 100px;
+  background: #651a39;
+  position: absolute;
+  top:400px;
+  left: 30%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 3px 20px 0px #d0d0d0;
+}
+#message p{
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+#board
+{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#word1
+{
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+#square
+{
+  background-color:#651a39;
+  width: 40px;
+  color: white;
+  font-weight: bolder;
+  height: 30px;
+  text-align: center;
+
+  
+}
+#start
+{
+  margin-top: 30px;
+  background:#651a39 ;
+  color:white;
+  width: 30%;
+  height: 50px;
+  font-weight: bolder;
+}
+#new
+{
+  background: #651a39;
+  margin-top: 30px;
+  margin-right: 30px;
+  color: white;
+  font-weight: bolder;
+}
+#button
+{
+  background: #651a39;
+  color: white;
+  font-weight: bolder;
+}
